@@ -9,7 +9,7 @@ Any business that takes card payments in a store and records orders in a separat
 system has this problem: retail, restaurants, pharmacies, any counter service where
 a reference is entered by hand.
 
-**[Demo page](https://mileross.github.io/order-payment-reconciliation/dashboard.html)**, built from invented data.
+**[Demo dashboard](https://mileross.github.io/order-payment-reconciliation/dashboard.html)** · **[Interactive demo](https://order-payment-reconciliation.streamlit.app/)**
 
 This project is my exercise in automation and in working with an AI coding
 assistant ("vibe coding"): I define the problem and the checks, the assistant
