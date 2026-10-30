@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order vs payment reconciliation</title>
+<style>
+:root {
+  color-scheme: light dark;
+  --surface: #fcfcfb; --card: #ffffff; --line: #e4e3df;
+  --ink: #0b0b0b; --ink2: #52514e; --track: #efeeea;
+  --blue: #2a78d6; --orange: #eb6834;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #1a1a19; --card: #222221; --line: #383835;
+    --ink: #f0efec; --ink2: #c3c2b7; --track: #2d2d2b;
+    --blue: #3987e5; --orange: #d95926;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface); color: var(--ink);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 960px; margin: 0 auto; padding: 32px 16px 56px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.05rem; margin: 0 0 4px; }
+p.sub { margin: 0 0 20px; color: var(--ink2); }
+.banner { border: 1px solid var(--line); border-left: 4px solid var(--orange); background: var(--card);
+  padding: 10px 14px; border-radius: 6px; margin-bottom: 24px; color: var(--ink2); font-size: .92rem; }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 24px; }
+.kpi { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; }
+.kpi b { display: block; font-size: 1.7rem; line-height: 1.2; }
+.kpi b small { font-size: .95rem; font-weight: 400; color: var(--ink2); }
+.kpi span { color: var(--ink2); font-size: .88rem; }
+section.card { background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: 18px 16px; margin-bottom: 20px; }
+section.card > p { margin: 0 0 14px; color: var(--ink2); font-size: .92rem; }
+.row { display: grid; grid-template-columns: var(--cols); gap: 12px; align-items: center; padding: 5px 0; }
+.row.head { padding-bottom: 2px; }
+.row.head .num { font-size: .78rem; line-height: 1.2; }
+.num { text-align: right; font-size: .88rem; color: var(--ink2); font-variant-numeric: tabular-nums; }
+.lab { font-size: .92rem; }
+.track { background: var(--track); height: 14px; border-radius: 0 4px 4px 0; }
+.bar { height: 14px; background: var(--blue); border-radius: 0 4px 4px 0; }
+.bar.warn { background: var(--orange); }
+.legend { display: flex; gap: 18px; font-size: .85rem; color: var(--ink2); margin-bottom: 8px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; background: var(--blue); }
+.legend i.warn { background: var(--orange); }
+.scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { color: var(--ink2); font-weight: 600; }
+ul { margin: 0; padding-left: 20px; color: var(--ink2); font-size: .92rem; }
+footer { color: var(--ink2); font-size: .85rem; margin-top: 28px; }
+@media (max-width: 680px) {
+  .row { grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 3px 12px; padding: 8px 0; }
+  .row.head { display: none; }
+  .lab, .track { grid-column: 1 / -1; }
+  .num { text-align: left; }
+  .num::before { content: attr(data-h); display: block; font-size: .72rem; color: var(--ink2); }
+}
+</style>
+</head>
+<body>
+<main>
+<h1>Order vs payment reconciliation</h1>
+<p class="sub">Every in-store order is checked against the card-payment records. This page shows what the pipeline found.</p>
+<div class="banner">Demo on <b>invented data</b>. The stores, orders and payments are generated, with problems planted on purpose, so these results say nothing about any real business.</div>
+
+<div class="kpis">
+  <div class="kpi"><b>6,519</b><span>completed orders checked</span></div>
+  <div class="kpi"><b>4,041 <small>(62.0%)</small></b><span>orders acceptable</span></div>
+  <div class="kpi"><b>2,478 <small>(38.0%)</small></b><span>orders not acceptable</span></div>
+  <div class="kpi"><b>€34,677</b><span>value of those orders</span></div>
+</div>
+
+
+<section class="card">
+  <h2>How well each order matches a payment</h2>
+  <p>Only a full match is acceptable. The other six levels show how far an order is from it, down to no payment reference at all.</p>
+  <div class="legend"><span><i></i>acceptable</span><span><i class="warn"></i>not acceptable</span></div>
+  <div class="row head" style="--cols:250px 1fr 70px 56px"><div></div><div></div><div class="num">Orders</div><div class="num">%</div></div>
+<div class="row" style="--cols:250px 1fr 70px 56px" title="Reference, amount and date all match"><div class="lab">Reference, amount and date all match</div><div class="track"><div class="bar" style="width:100.0%"></div></div><div class="num" data-h="Orders">4,041</div><div class="num" data-h="%">62.0%</div></div>
+<div class="row" style="--cols:250px 1fr 70px 56px" title="Amount and date match a payment, reference differs"><div class="lab">Amount and date match a payment,<br>reference differs</div><div class="track"><div class="bar warn" style="width:44.5%"></div></div><div class="num" data-h="Orders">1,799</div><div class="num" data-h="%">27.6%</div></div>
+<div class="row" style="--cols:250px 1fr 70px 56px" title="Reference not in the payment records"><div class="lab">Reference not in the payment records</div><div class="track"><div class="bar warn" style="width:7.7%"></div></div><div class="num" data-h="Orders">311</div><div class="num" data-h="%">4.8%</div></div>
+<div class="row" style="--cols:250px 1fr 70px 56px" title="Reference exists, nothing else matches"><div class="lab">Reference exists,<br>nothing else matches</div><div class="track"><div class="bar warn" style="width:7.4%"></div></div><div class="num" data-h="Orders">298</div><div class="num" data-h="%">4.6%</div></div>
+<div class="row" style="--cols:250px 1fr 70px 56px" title="No payment reference on the order"><div class="lab">No payment reference on the order</div><div class="track"><div class="bar warn" style="width:1.7%"></div></div><div class="num" data-h="Orders">70</div><div class="num" data-h="%">1.1%</div></div>
+<div class="row" style="--cols:250px 1fr 70px 56px" title="Reference and amount match, date differs"><div class="lab">Reference and amount match,<br>date differs</div><div class="track"><div class="bar warn" style="width:0.0%"></div></div><div class="num" data-h="Orders">0</div><div class="num" data-h="%">0.0%</div></div>
+<div class="row" style="--cols:250px 1fr 70px 56px" title="Reference and date match, amount differs"><div class="lab">Reference and date match,<br>amount differs</div><div class="track"><div class="bar warn" style="width:0.0%"></div></div><div class="num" data-h="Orders">0</div><div class="num" data-h="%">0.0%</div></div>
+</section>
+
+<section class="card">
+  <h2>Orders that are not acceptable, by store</h2>
+  <p>Share of each store's completed orders where reference, amount and date do not all match, with the value at stake.</p>
+  <div class="row head" style="--cols:130px 1fr 112px 56px 64px 78px"><div></div><div></div><div class="num">Not acceptable / all orders</div><div class="num">%</div><div class="num">Value</div><div class="num">No payment found</div></div>
+<div class="row" style="--cols:130px 1fr 112px 56px 64px 78px" title="store3"><div class="lab">store3</div><div class="track"><div class="bar warn" style="width:100.0%"></div></div><div class="num" data-h="Not acceptable / all orders">729 / 1,306</div><div class="num" data-h="%">55.8%</div><div class="num" data-h="Value">€10,309</div><div class="num" data-h="No payment found">464</div></div>
+<div class="row" style="--cols:130px 1fr 112px 56px 64px 78px" title="store2"><div class="lab">store2</div><div class="track"><div class="bar warn" style="width:66.7%"></div></div><div class="num" data-h="Not acceptable / all orders">379 / 1,020</div><div class="num" data-h="%">37.2%</div><div class="num" data-h="Value">€5,072</div><div class="num" data-h="No payment found">65</div></div>
+<div class="row" style="--cols:130px 1fr 112px 56px 64px 78px" title="store5"><div class="lab">store5</div><div class="track"><div class="bar warn" style="width:59.9%"></div></div><div class="num" data-h="Not acceptable / all orders">633 / 1,895</div><div class="num" data-h="%">33.4%</div><div class="num" data-h="Value">€8,774</div><div class="num" data-h="No payment found">84</div></div>
+<div class="row" style="--cols:130px 1fr 112px 56px 64px 78px" title="store1"><div class="lab">store1</div><div class="track"><div class="bar warn" style="width:58.2%"></div></div><div class="num" data-h="Not acceptable / all orders">526 / 1,620</div><div class="num" data-h="%">32.5%</div><div class="num" data-h="Value">€7,456</div><div class="num" data-h="No payment found">46</div></div>
+<div class="row" style="--cols:130px 1fr 112px 56px 64px 78px" title="store4"><div class="lab">store4</div><div class="track"><div class="bar warn" style="width:55.7%"></div></div><div class="num" data-h="Not acceptable / all orders">211 / 678</div><div class="num" data-h="%">31.1%</div><div class="num" data-h="Value">€3,066</div><div class="num" data-h="No payment found">20</div></div>
+</section>
+
+<section class="card">
+  <h2>Payment references cited by more than one order</h2>
+  <p>One card payment can only pay for one order, so a reference cited many times cannot be verified by itself. It is not proof of theft: staff sometimes reused a reference because the browser kept suggesting it.</p>
+  <div class="scroll"><table><thead><tr><th>Payment reference</th><th>Orders citing it</th><th>Value at stake</th><th>Store</th></tr></thead><tbody><tr><td>S4QSNG72XO</td><td>195</td><td>€2,592</td><td>store3</td></tr><tr><td>S43JWF1ZMC</td><td>44</td><td>€611</td><td>store5</td></tr><tr><td>SDS901Z2SE</td><td>33</td><td>€481</td><td>store2</td></tr><tr><td>SD1XPP4DZH</td><td>18</td><td>€205</td><td>store1</td></tr><tr><td>S3TPQIDT5C</td><td>8</td><td>€109</td><td>store4</td></tr></tbody></table></div>
+</section>
+
+<section class="card">
+  <h2>Ten orders to follow up first</h2>
+  <p>Not acceptable orders, largest amount first. The full ranked list is in <code>reconciliation_full.csv</code>.</p>
+  <div class="scroll"><table><thead><tr><th>Order</th><th>Store</th><th>Evidence</th><th>Amount</th><th>Reference reused</th></tr></thead><tbody><tr><td>3681</td><td>store3</td><td>Amount and date match a payment, reference differs</td><td>€120.00</td><td>no</td></tr><tr><td>4745</td><td>store4</td><td>Amount and date match a payment, reference differs</td><td>€120.00</td><td>no</td></tr><tr><td>6520</td><td>store5</td><td>Amount and date match a payment, reference differs</td><td>€102.80</td><td>no</td></tr><tr><td>127</td><td>store1</td><td>Amount and date match a payment, reference differs</td><td>€84.77</td><td>no</td></tr><tr><td>1974</td><td>store2</td><td>Amount and date match a payment, reference differs</td><td>€83.65</td><td>no</td></tr><tr><td>4455</td><td>store4</td><td>Amount and date match a payment, reference differs</td><td>€78.06</td><td>no</td></tr><tr><td>4180</td><td>store3</td><td>Amount and date match a payment, reference differs</td><td>€75.11</td><td>no</td></tr><tr><td>3408</td><td>store3</td><td>Reference not in the payment records</td><td>€74.75</td><td>no</td></tr><tr><td>6318</td><td>store5</td><td>Amount and date match a payment, reference differs</td><td>€69.94</td><td>no</td></tr><tr><td>4240</td><td>store3</td><td>Reference not in the payment records</td><td>€67.32</td><td>no</td></tr></tbody></table></div>
+</section>
+
+<section class="card">
+  <h2>Left out of the count, and why</h2>
+  <ul>
+    <li>472 canceled, pending or stock-changed orders: no payment is expected. 8 of them cite a real payment and are listed separately so a refund can be checked.</li>
+    <li>195 orders outside the period covered by the payment records (2025-01-01 to 2025-12-21): they cannot be checked, so calling them not acceptable would be wrong.</li>
+    <li>15 orders from a test store.</li>
+  </ul>
+</section>
+
+<footer>Generated by make_dashboard.py from the CSV reports in the output folder.</footer>
+</main>
+</body>
+</html>

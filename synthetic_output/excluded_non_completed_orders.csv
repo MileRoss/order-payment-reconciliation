@@ -1,0 +1,4 @@
+final_status,orders,total_value
+Canceled,449,6552.02
+Pending,8,243.59
+StockChanged,15,228.88

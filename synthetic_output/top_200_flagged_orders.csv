@@ -1,0 +1,201 @@
+order_id,store,payment_ref,order_date,final_status,bill_amount,match_tier,payment_amount,payment_date,orders_citing_this_ref,ref_reused
+3681,store3,S07P0T0QJV,2025-07-21 17:14:56,Completed,120.0,amount_and_date_other_ref,,,1,False
+4745,store4,SAGNB6XE40,2025-07-15 18:15:56,Completed,120.0,amount_and_date_other_ref,,,1,False
+6520,store5,SDWA5B2CYC,2025-09-04 13:15:54,Completed,102.8,amount_and_date_other_ref,,,1,False
+127,store1,S7W4I4CISB,2025-01-23 15:11:16,Completed,84.77,amount_and_date_other_ref,,,1,False
+1974,store2,S38D7UVLMT,2025-02-25 10:15:40,Completed,83.65,amount_and_date_other_ref,,,1,False
+4455,store4,SEAJSYIYLV,2025-02-16 09:29:34,Completed,78.06,amount_and_date_other_ref,,,1,False
+4180,store3,SYR862USXU,2025-11-21 21:37:03,Completed,75.11,amount_and_date_other_ref,,,1,False
+3408,store3,SN3DH9EI3E,2025-05-09 16:02:47,Completed,74.75,ref_not_found,,,1,False
+6318,store5,SDOOBBVMSG,2025-07-31 15:44:59,Completed,69.94,amount_and_date_other_ref,,,1,False
+4240,store3,S0OZ6DBYQZ,2025-12-03 16:55:03,Completed,67.32,ref_not_found,,,1,False
+3896,store3,S4QSNG72XO,2025-09-14 08:48:02,Completed,66.02,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+6287,store5,SDA7BH0FHZ,2025-07-27 09:44:25,Completed,62.97,amount_and_date_other_ref,,,1,False
+956,store1,SXTW06HRUM,2025-07-08 14:19:14,Completed,62.25,amount_and_date_other_ref,,,1,False
+6632,store5,SLD5H4M8KQ,2025-09-25 17:19:31,Completed,61.8,ref_not_found,,,1,False
+5172,store5,SXUFZKX8ZK,2025-01-12 20:34:58,Completed,60.98,amount_and_date_other_ref,,,1,False
+2720,store2,SVPOKOG4ON,2025-10-25 15:58:32,Completed,60.75,amount_and_date_other_ref,,,1,False
+6443,store5,SEUAUCEYL7,2025-08-22 11:07:32,Completed,60.11,amount_and_date_other_ref,,,1,False
+2533,store2,SWIMMMZF6Z,2025-08-23 11:25:42,Completed,60.04,amount_and_date_other_ref,,,1,False
+787,store1,SGT50YD59U,2025-06-04 19:24:02,Completed,56.55,amount_and_date_other_ref,,,1,False
+4100,store3,S2T1VBMAC7,2025-11-02 17:26:36,Completed,56.43,ref_not_found,,,1,False
+4904,store4,S2PX7FHGT9,2025-09-22 14:44:38,Completed,56.42,amount_and_date_other_ref,,,1,False
+2605,store2,SOZPAUA484,2025-09-16 12:34:05,Completed,55.8,amount_and_date_other_ref,,,1,False
+6746,store5,S3CNVGVPLO,2025-10-12 10:18:10,Completed,54.73,amount_and_date_other_ref,,,1,False
+6773,store5,SNBH7VZG5X,2025-10-15 19:39:00,Completed,54.45,amount_and_date_other_ref,,,1,False
+6856,store5,SY2J7Y7DBP,2025-10-30 12:40:06,Completed,54.37,amount_and_date_other_ref,,,1,False
+6584,store5,SPJIJ1DUSH,2025-09-16 20:30:00,Completed,54.21,amount_and_date_other_ref,,,1,False
+7084,store5,SDHF8LBZ0N,2025-12-13 18:50:30,Completed,53.88,amount_and_date_other_ref,,,1,False
+5446,store5,STD7H8X0EI,2025-03-04 18:43:48,Completed,53.73,amount_and_date_other_ref,,,1,False
+2289,store2,,2025-06-08 09:18:24,Completed,53.14,missing_ref,,,0,False
+1538,store1,SSZV6P567Z,2025-11-10 14:40:34,Completed,52.0,amount_and_date_other_ref,,,1,False
+905,store1,SCZ5VEGBRZ,2025-06-29 13:19:08,Completed,51.82,amount_and_date_other_ref,,,1,False
+4759,store4,SINUQR0FC4,2025-07-20 10:45:37,Completed,51.59,amount_and_date_other_ref,,,1,False
+3349,store3,S5TU7AMM0M,2025-04-23 17:10:42,Completed,50.66,amount_and_date_other_ref,,,1,False
+5062,store4,SWUCQ3HDXY,2025-12-11 14:26:28,Completed,50.57,amount_and_date_other_ref,,,1,False
+4039,store3,SJA8FO21FJ,2025-10-18 08:07:55,Completed,49.73,amount_and_date_other_ref,,,1,False
+3598,store3,SU110ILL01,2025-06-30 20:45:53,Completed,49.12,ref_not_found,,,1,False
+1405,store1,S72CB1ZUDK,2025-10-12 20:11:56,Completed,49.06,amount_and_date_other_ref,,,1,False
+193,store1,S122UD7V68,2025-02-06 13:15:40,Completed,48.17,amount_and_date_other_ref,,,1,False
+1276,store1,SH23W6QILF,2025-09-14 11:38:56,Completed,47.94,amount_and_date_other_ref,,,1,False
+4445,store4,SWU4EIO3H8,2025-02-08 10:25:31,Completed,47.94,amount_and_date_other_ref,,,1,False
+1524,store1,SK4LXHJ9OA,2025-11-06 14:31:46,Completed,47.78,amount_and_date_other_ref,,,1,False
+3527,store3,SW4KV7QHRC,2025-06-09 11:18:18,Completed,47.72,ref_not_found,,,1,False
+3988,store3,,2025-10-07 18:58:14,Completed,47.65,missing_ref,,,0,False
+4192,store3,S4QSNG72XO,2025-11-25 20:26:24,Completed,47.55,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+4318,store3,S4QSNG72XO,2025-12-20 11:06:06,Completed,47.55,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+1811,store2,SFQYJ5RLNW,2025-01-01 11:51:31,Completed,47.09,amount_and_date_other_ref,,,1,False
+5922,store5,SN6EJWS9AJ,2025-05-27 15:19:19,Completed,46.97,amount_and_date_other_ref,,,1,False
+3834,store3,SC0W7KW4RJ,2025-08-30 10:40:02,Completed,46.87,amount_and_date_other_ref,,,1,False
+3780,store3,SPGPNVLM5O,2025-08-13 08:45:29,Completed,46.79,amount_and_date_other_ref,,,1,False
+6200,store5,S43JWF1ZMC,2025-07-12 15:55:04,Completed,46.7,ref_found_no_other_match,13.72,2025-01-31 11:00:00,44,True
+3421,store3,S4QSNG72XO,2025-05-11 19:09:23,Completed,46.61,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+1443,store1,SH0Q8MO02E,2025-10-21 19:52:05,Completed,46.47,amount_and_date_other_ref,,,1,False
+2439,store2,,2025-07-24 17:37:35,Completed,46.28,missing_ref,,,0,False
+3906,store3,S7X4KHUZ0T,2025-09-17 11:47:53,Completed,46.06,amount_and_date_other_ref,,,1,False
+4054,store3,SOLFTVSSZB,2025-10-22 21:42:17,Completed,45.82,amount_and_date_other_ref,,,1,False
+1021,store1,S42GUHU653,2025-07-22 08:35:17,Completed,45.66,amount_and_date_other_ref,,,1,False
+3960,store3,S4QSNG72XO,2025-09-29 16:03:32,Completed,45.53,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+7036,store5,SAIQD6K0IZ,2025-12-02 14:37:46,Completed,45.42,amount_and_date_other_ref,,,1,False
+789,store1,SFNMRBZHZU,2025-06-04 12:45:10,Completed,45.4,amount_and_date_other_ref,,,1,False
+2000,store2,SEUTTM1VGN,2025-03-06 11:04:48,Completed,45.09,amount_and_date_other_ref,,,1,False
+3550,store3,SFAKICSOOZ,2025-06-16 14:21:55,Completed,44.97,ref_not_found,,,1,False
+3929,store3,SZCRB3LDIU,2025-09-23 14:01:03,Completed,44.45,amount_and_date_other_ref,,,1,False
+6858,store5,,2025-10-31 21:53:38,Completed,44.45,missing_ref,,,0,False
+1047,store1,S98XQF7AFY,2025-07-28 11:11:36,Completed,44.25,amount_and_date_other_ref,,,1,False
+2800,store2,SJMZMXYSNC,2025-11-20 12:55:05,Completed,43.84,amount_and_date_other_ref,,,1,False
+3974,store3,,2025-10-02 20:14:23,Completed,43.75,missing_ref,,,0,False
+7127,store5,SAAKBMY3S1,2025-12-20 21:56:14,Completed,43.28,amount_and_date_other_ref,,,1,False
+2728,store2,SD9IVJ2ZFI,2025-10-27 12:46:03,Completed,43.26,amount_and_date_other_ref,,,1,False
+236,store1,SZW6AKGUW6,2025-02-13 11:44:13,Completed,43.19,amount_and_date_other_ref,,,1,False
+4771,store4,S8QZ0Q05XZ,2025-07-26 19:47:33,Completed,42.74,amount_and_date_other_ref,,,1,False
+183,store1,SX7Y1J3PCN,2025-02-04 11:59:25,Completed,42.72,amount_and_date_other_ref,,,1,False
+2566,store2,SY4HA3U24N,2025-09-01 16:32:33,Completed,42.71,amount_and_date_other_ref,,,1,False
+1117,store1,SOGC9SMNIE,2025-08-14 12:52:18,Completed,42.53,amount_and_date_other_ref,,,1,False
+6657,store5,SAKMD7X3UR,2025-09-28 08:52:03,Completed,41.82,amount_and_date_other_ref,,,1,False
+3292,store3,S212YSM0HC,2025-04-09 13:08:33,Completed,41.66,ref_not_found,,,1,False
+7022,store5,S8205EP3HH,2025-11-28 20:08:40,Completed,41.38,amount_and_date_other_ref,,,1,False
+791,store1,S9VHAEG7GF,2025-06-04 12:53:31,Completed,41.26,amount_and_date_other_ref,,,1,False
+3436,store3,S4QSNG72XO,2025-05-15 17:22:53,Completed,41.22,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+6664,store5,S43JWF1ZMC,2025-09-30 14:48:34,Completed,40.63,ref_found_no_other_match,13.72,2025-01-31 11:00:00,44,True
+2656,store2,SE4VNUFLT8,2025-09-29 09:52:13,Completed,40.54,amount_and_date_other_ref,,,1,False
+4217,store3,SIV2DFWK6T,2025-11-28 13:05:05,Completed,40.35,amount_and_date_other_ref,,,1,False
+7106,store5,S3774NJRMZ,2025-12-15 21:55:29,Completed,40.03,amount_and_date_other_ref,,,1,False
+1625,store1,SYKO7AHDXQ,2025-11-26 10:55:02,Completed,39.95,amount_and_date_other_ref,,,1,False
+3076,store3,S4QSNG72XO,2025-02-11 13:04:25,Completed,39.86,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+5001,store4,SB61FMD1EX,2025-11-11 21:34:28,Completed,39.75,amount_and_date_other_ref,,,1,False
+2379,store2,S5FXMT64CD,2025-07-07 15:05:03,Completed,39.59,ref_not_found,,,1,False
+3094,store3,SZ3OU020BH,2025-02-15 08:50:46,Completed,39.32,ref_not_found,,,1,False
+4577,store4,SDD3J2R99V,2025-04-22 14:11:20,Completed,38.79,amount_and_date_other_ref,,,1,False
+3938,store3,S3C7KJMNGL,2025-09-25 09:19:55,Completed,38.75,amount_and_date_other_ref,,,1,False
+5740,store5,SYYSP7TFMU,2025-04-26 18:56:51,Completed,38.75,amount_and_date_other_ref,,,1,False
+4842,store4,SIV5HA1ZHT,2025-08-26 15:58:50,Completed,38.72,amount_and_date_other_ref,,,1,False
+1653,store1,S18SW9SBIW,2025-12-02 13:22:30,Completed,38.43,amount_and_date_other_ref,,,1,False
+2106,store2,S5QHG30ZB8,2025-04-11 14:34:27,Completed,38.41,amount_and_date_other_ref,,,1,False
+650,store1,SYWND836KL,2025-05-08 21:07:51,Completed,38.27,amount_and_date_other_ref,,,1,False
+3546,store3,S8D75QZK8R,2025-06-15 14:44:36,Completed,38.12,amount_and_date_other_ref,,,1,False
+1586,store1,SRVGBHWOWP,2025-11-18 19:27:50,Completed,37.94,amount_and_date_other_ref,,,1,False
+5241,store5,SUEBL7T3KD,2025-01-24 20:32:13,Completed,37.61,amount_and_date_other_ref,,,1,False
+4308,store3,SOJUVZHM33,2025-12-18 09:01:05,Completed,37.41,amount_and_date_other_ref,,,1,False
+3508,store3,S7FW1CKRM5,2025-06-03 19:02:48,Completed,37.38,ref_not_found,,,1,False
+7009,store5,SC888Y2IFX,2025-11-26 10:37:14,Completed,37.04,amount_and_date_other_ref,,,1,False
+1242,store1,SJ1482HFH5,2025-09-08 13:56:14,Completed,36.98,amount_and_date_other_ref,,,1,False
+1868,store2,SDS901Z2SE,2025-01-21 11:00:53,Completed,36.97,ref_found_no_other_match,9.11,2025-01-31 11:00:00,33,True
+2547,store2,ST072JYYH3,2025-08-25 21:51:58,Completed,36.89,amount_and_date_other_ref,,,1,False
+4130,store3,S4QSNG72XO,2025-11-09 20:46:51,Completed,36.85,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+3143,store3,SU5LTZCMWJ,2025-02-27 12:34:49,Completed,36.81,amount_and_date_other_ref,,,1,False
+2935,store3,SRDEHKKYTA,2025-01-02 14:48:35,Completed,36.78,amount_and_date_other_ref,,,1,False
+784,store1,S1NZW62IV2,2025-06-03 14:28:43,Completed,36.72,amount_and_date_other_ref,,,1,False
+1018,store1,S5HTN68141,2025-07-21 16:54:02,Completed,36.63,amount_and_date_other_ref,,,1,False
+4605,store4,SG9V90EC6Z,2025-05-02 10:11:40,Completed,36.36,amount_and_date_other_ref,,,1,False
+6586,store5,SXWN52Y3E5,2025-09-16 12:07:47,Completed,36.31,amount_and_date_other_ref,,,1,False
+1846,store2,SSI085OB5U,2025-01-12 18:15:28,Completed,36.29,amount_and_date_other_ref,,,1,False
+1217,store1,SEZHV3YIII,2025-09-03 20:42:54,Completed,36.24,amount_and_date_other_ref,,,1,False
+2195,store2,SDS901Z2SE,2025-05-09 08:19:22,Completed,36.19,ref_found_no_other_match,9.11,2025-01-31 11:00:00,33,True
+1582,store1,SG2OIADJ04,2025-11-18 20:15:17,Completed,35.96,amount_and_date_other_ref,,,1,False
+3984,store3,S422CNWTLO,2025-10-06 16:04:54,Completed,35.62,ref_not_found,,,1,False
+273,store1,SIZ01MOO46,2025-02-20 17:47:59,Completed,35.51,amount_and_date_other_ref,,,1,False
+2974,store3,S4QSNG72XO,2025-01-14 13:57:00,Completed,35.47,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+5144,store5,SU496LQZJ8,2025-01-08 10:09:31,Completed,35.47,amount_and_date_other_ref,,,1,False
+5995,store5,SDYMHGSGSB,2025-06-08 20:22:42,Completed,34.91,amount_and_date_other_ref,,,1,False
+3671,store3,SDNPQ3PGYX,2025-07-18 20:01:51,Completed,34.84,amount_and_date_other_ref,,,1,False
+5336,store5,SRG3945UIT,2025-02-11 14:08:05,Completed,34.56,amount_and_date_other_ref,,,1,False
+5222,store5,S43JWF1ZMC,2025-01-21 19:38:17,Completed,34.54,ref_found_no_other_match,13.72,2025-01-31 11:00:00,44,True
+40,store1,SBPRQ7FLGI,2025-01-07 19:42:29,Completed,34.48,amount_and_date_other_ref,,,1,False
+1662,store1,SMLHMRYIBU,2025-12-04 13:42:24,Completed,34.48,amount_and_date_other_ref,,,1,False
+1640,store1,SNCTM92P1U,2025-11-30 09:27:15,Completed,34.19,amount_and_date_other_ref,,,1,False
+26,store1,S1HY0M0631,2025-01-05 20:52:53,Completed,34.17,amount_and_date_other_ref,,,1,False
+4980,store4,SCSPPSE26D,2025-11-01 13:33:57,Completed,34.16,amount_and_date_other_ref,,,1,False
+3932,store3,,2025-09-23 15:19:33,Completed,34.1,missing_ref,,,0,False
+3229,store3,S4QSNG72XO,2025-03-19 08:25:10,Completed,33.92,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+28,store1,SD1XPP4DZH,2025-01-06 18:55:27,Completed,33.89,ref_found_no_other_match,10.9,2025-01-31 11:00:00,18,True
+1100,store1,SLKSH5DQG3,2025-08-11 12:55:09,Completed,33.77,amount_and_date_other_ref,,,1,False
+5004,store4,SF5MQ6FDW9,2025-11-12 17:39:19,Completed,33.69,amount_and_date_other_ref,,,1,False
+2661,store2,SDS901Z2SE,2025-10-01 19:04:40,Completed,33.66,ref_found_no_other_match,9.11,2025-01-31 11:00:00,33,True
+5647,store5,S1NQSLFU4Q,2025-04-10 13:33:16,Completed,33.61,amount_and_date_other_ref,,,1,False
+3535,store3,S16LK3TC2D,2025-06-12 19:40:42,Completed,33.59,ref_not_found,,,1,False
+3933,store3,S6A0E20WXA,2025-09-24 14:02:14,Completed,33.56,amount_and_date_other_ref,,,1,False
+3628,store3,SGVFQQC4CL,2025-07-08 13:30:56,Completed,33.43,amount_and_date_other_ref,,,1,False
+2384,store2,S2I3UAWA49,2025-07-08 08:37:38,Completed,33.38,amount_and_date_other_ref,,,1,False
+1551,store1,SAI2RW27CU,2025-11-12 17:32:10,Completed,33.31,amount_and_date_other_ref,,,1,False
+4779,store4,SEI9A5O452,2025-07-29 11:59:54,Completed,33.08,amount_and_date_other_ref,,,1,False
+3667,store3,S7RG8OZTEZ,2025-07-18 21:58:03,Completed,33.07,ref_not_found,,,1,False
+6036,store5,SR12WR931E,2025-06-14 16:46:38,Completed,33.03,amount_and_date_other_ref,,,1,False
+1665,store1,SA1ZDQ623O,2025-12-04 15:03:19,Completed,33.02,amount_and_date_other_ref,,,1,False
+213,store1,S1G1R9B8IB,2025-02-09 15:24:53,Completed,32.98,amount_and_date_other_ref,,,1,False
+3314,store3,SBWUTRVPEU,2025-04-15 13:29:44,Completed,32.98,ref_not_found,,,1,False
+5935,store5,SQAHD74JO5,2025-05-28 11:29:41,Completed,32.92,amount_and_date_other_ref,,,1,False
+2847,store2,S8C6DZ8MFC,2025-12-07 11:38:55,Completed,32.88,amount_and_date_other_ref,,,1,False
+3471,store3,SJJGLKMHEZ,2025-05-22 15:37:09,Completed,32.55,amount_and_date_other_ref,,,1,False
+4001,store3,S2R7XIEGVB,2025-10-10 18:42:38,Completed,32.5,ref_not_found,,,1,False
+3319,store3,SBY9B8WH43,2025-04-16 18:00:29,Completed,32.44,amount_and_date_other_ref,,,1,False
+1288,store1,SLU0ZUKTT8,2025-09-17 10:18:26,Completed,32.42,amount_and_date_other_ref,,,1,False
+2942,store3,SH3UP2A0O3,2025-01-05 19:24:20,Completed,32.4,amount_and_date_other_ref,,,1,False
+3539,store3,SNSH87N01W,2025-06-13 21:59:18,Completed,32.39,amount_and_date_other_ref,,,1,False
+3625,store3,STB8UYVO4L,2025-07-08 19:07:21,Completed,32.31,amount_and_date_other_ref,,,1,False
+5367,store5,SX0VW56BSV,2025-02-16 19:27:47,Completed,32.24,amount_and_date_other_ref,,,1,False
+4574,store4,S9JBGSZPLH,2025-04-20 13:02:47,Completed,32.13,amount_and_date_other_ref,,,1,False
+3286,store3,,2025-04-05 16:05:20,Completed,32.09,missing_ref,,,0,False
+3551,store3,SNL4VCAEU9,2025-06-16 17:16:06,Completed,32.0,amount_and_date_other_ref,,,1,False
+2971,store3,SHSYVGNDU0,2025-01-13 09:34:58,Completed,31.99,amount_and_date_other_ref,,,1,False
+1604,store1,SV1R8JUA3U,2025-11-22 15:48:21,Completed,31.98,amount_and_date_other_ref,,,1,False
+729,store1,SOGC7OD52Z,2025-05-24 21:45:38,Completed,31.79,amount_and_date_other_ref,,,1,False
+3123,store3,SDO3I4GZKM,2025-02-21 08:24:37,Completed,31.77,ref_not_found,,,1,False
+3597,store3,S1T4I2XUNE,2025-06-29 16:41:21,Completed,31.73,ref_not_found,,,1,False
+3664,store3,S4QSNG72XO,2025-07-17 10:38:49,Completed,31.71,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+2371,store2,S4RJBPTA7Z,2025-07-04 08:57:19,Completed,31.69,amount_and_date_other_ref,,,1,False
+3806,store3,S4QSNG72XO,2025-08-22 09:28:50,Completed,31.66,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+2516,store2,SDS901Z2SE,2025-08-18 09:47:13,Completed,31.63,ref_found_no_other_match,9.11,2025-01-31 11:00:00,33,True
+561,store1,S7X9VT35C6,2025-04-20 09:49:45,Completed,31.31,amount_and_date_other_ref,,,1,False
+686,store1,SHG6VAD3JF,2025-05-16 08:07:08,Completed,31.22,amount_and_date_other_ref,,,1,False
+1504,store1,SAZZ1TJCLT,2025-11-03 11:21:32,Completed,31.16,amount_and_date_other_ref,,,1,False
+2259,store2,S2RLLXYRIO,2025-05-30 20:22:38,Completed,31.11,amount_and_date_other_ref,,,1,False
+3919,store3,SK4VYXMZX3,2025-09-21 16:59:23,Completed,31.0,amount_and_date_other_ref,,,1,False
+1473,store1,SKAD6VLCZB,2025-10-28 14:18:03,Completed,30.94,amount_and_date_other_ref,,,1,False
+3946,store3,SFV2SB5OSS,2025-09-27 19:28:03,Completed,30.77,amount_and_date_other_ref,,,1,False
+3859,store3,S4QSNG72XO,2025-09-06 11:10:14,Completed,30.74,ref_found_no_other_match,6.74,2025-01-31 11:00:00,195,True
+2364,store2,SJK4AEA8BJ,2025-07-03 11:28:39,Completed,30.7,amount_and_date_other_ref,,,1,False
+6429,store5,S1V3YUCQID,2025-08-20 08:56:11,Completed,30.7,amount_and_date_other_ref,,,1,False
+3153,store3,SDDQ1K2AKS,2025-03-02 20:27:43,Completed,30.67,amount_and_date_other_ref,,,1,False
+3217,store3,SGMCXZ1N4X,2025-03-15 15:43:19,Completed,30.61,amount_and_date_other_ref,,,1,False
+7015,store5,SPVC4YTFP3,2025-11-27 08:24:29,Completed,30.6,ref_not_found,,,1,False
+6093,store5,SKDYVI4DMC,2025-06-21 08:22:14,Completed,30.55,amount_and_date_other_ref,,,1,False
+6576,store5,S8DVF3OMSG,2025-09-15 14:18:20,Completed,30.52,amount_and_date_other_ref,,,1,False
+2869,store2,SDS901Z2SE,2025-12-12 10:55:21,Completed,30.44,ref_found_no_other_match,9.11,2025-01-31 11:00:00,33,True
+6600,store5,S43JWF1ZMC,2025-09-20 16:28:21,Completed,30.41,ref_found_no_other_match,13.72,2025-01-31 11:00:00,44,True
+3779,store3,SU23ETR25L,2025-08-12 18:59:01,Completed,30.37,ref_not_found,,,1,False
+5322,store5,SKPQVUQZX0,2025-02-09 10:20:49,Completed,30.3,amount_and_date_other_ref,,,1,False
+5890,store5,S43JWF1ZMC,2025-05-21 14:43:06,Completed,30.19,ref_found_no_other_match,13.72,2025-01-31 11:00:00,44,True
+5443,store5,SUMJMGUGEH,2025-03-04 12:53:54,Completed,30.16,amount_and_date_other_ref,,,1,False
+723,store1,S0FE95LCMA,2025-05-23 18:25:54,Completed,30.15,amount_and_date_other_ref,,,1,False
+2333,store2,SDS901Z2SE,2025-06-23 20:31:21,Completed,30.11,ref_found_no_other_match,9.11,2025-01-31 11:00:00,33,True
+3379,store3,SLPLNZKT2W,2025-05-01 09:13:48,Completed,30.11,ref_not_found,,,1,False
+4087,store3,S2L2SYKPLP,2025-10-30 19:35:10,Completed,29.84,amount_and_date_other_ref,,,1,False
+149,store1,SD1XPP4DZH,2025-01-27 08:38:36,Completed,29.83,ref_found_no_other_match,10.9,2025-01-31 11:00:00,18,True
+1522,store1,SKK5P94ZT4,2025-11-05 09:01:11,Completed,29.75,amount_and_date_other_ref,,,1,False
+6833,store5,SLJDRTVY3J,2025-10-26 13:02:58,Completed,29.75,amount_and_date_other_ref,,,1,False
+1529,store1,SM5KYN9621,2025-11-07 20:35:19,Completed,29.65,amount_and_date_other_ref,,,1,False
+700,store1,S7H5AVPK7X,2025-05-18 18:28:56,Completed,29.45,amount_and_date_other_ref,,,1,False
+4777,store4,S3TPQIDT5C,2025-07-29 08:12:46,Completed,29.39,ref_found_no_other_match,10.94,2025-01-31 11:00:00,8,True
+6622,store5,S3863MOBHQ,2025-09-24 20:19:14,Completed,29.33,amount_and_date_other_ref,,,1,False
+1160,store1,SLQPXQ2QLL,2025-08-24 17:19:07,Completed,29.24,amount_and_date_other_ref,,,1,False

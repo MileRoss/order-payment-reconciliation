@@ -1,0 +1,9 @@
+order_id,store,payment_ref,order_date,final_status,bill_amount,match_tier,payment_amount,payment_date,orders_citing_this_ref,ref_reused
+390,store1,SL44CB2SLW,2025-03-16 14:00:33,Canceled,5.62,full_match,5.62,2025-03-16 14:00:33,1,False
+660,store1,SQ5QX41X2K,2025-05-10 21:29:50,Canceled,6.88,full_match,6.88,2025-05-10 21:29:50,1,False
+2593,store2,SV3OJS6XC1,2025-09-13 15:27:35,Canceled,4.95,full_match,4.95,2025-09-13 15:27:35,1,False
+3663,store3,SH0MH5VK0E,2025-07-17 16:23:08,Canceled,13.12,full_match,13.12,2025-07-17 16:23:08,1,False
+4709,store4,S4G9Q25MY6,2025-06-26 11:52:08,Canceled,6.55,full_match,6.55,2025-06-26 11:52:08,1,False
+5432,store5,SJAQSPDAWN,2025-03-01 17:13:06,Canceled,14.54,full_match,14.54,2025-03-01 17:13:06,1,False
+5525,store5,SOJBBDH1B3,2025-03-17 14:13:02,Canceled,27.07,full_match,27.07,2025-03-17 14:13:02,1,False
+6634,store5,S7SY0F67KU,2025-09-26 18:53:07,Canceled,6.52,full_match,6.52,2025-09-26 18:53:07,1,False

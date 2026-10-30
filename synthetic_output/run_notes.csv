@@ -1,0 +1,8 @@
+item,value
+orders_scored,6519
+sandbox_orders_dropped,15
+orders_outside_payment_period,195
+non_completed_orders_not_scored,472
+non_completed_with_payment_check_refund,8
+payment_period_start,2025-01-01 08:45:39
+payment_period_end,2025-12-21 21:27:38

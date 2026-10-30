@@ -1,0 +1,6 @@
+match_tier,orders,total_value,pct_of_orders
+full_match,4041,57326.66,61.99
+amount_and_date_other_ref,1799,25552.35,27.6
+ref_not_found,311,4113.42,4.77
+ref_found_no_other_match,298,3998.54,4.57
+missing_ref,70,1012.45,1.07

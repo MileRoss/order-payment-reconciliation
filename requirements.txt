@@ -1,0 +1,6 @@
+pandas
+openpyxl
+# only for the optional summary step:
+# anthropic
+# only for the interactive view (app.py):
+# streamlit
